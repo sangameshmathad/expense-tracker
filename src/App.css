@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100&family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Anybody', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+  background-color:#001f3f ;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+.expensesBox{
+  min-width:  23vw;
+  min-height: 55vh;
+  height: auto;
+  border: solid black 0.2px;
+  border-radius: 10px;
+}
+h2{
+  margin: 0.2rem;
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+input{
+  color: white;
+  font-weight: bold;
+  width: 35%;
+  padding: 3px;
+  font-size: 12px;
+  border: none;
+  text-align: center;
+}
+ button{
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  width: 4vw;
+  border-radius: 5px;
+  border: none;
+ 
+}
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+.itemList{
+  display: grid;
+  background-color: beige;
+  grid-template-columns: 2fr 2fr 1fr;
+  margin: 5px 10px;
+ 
+}
+
+.itemList button:hover{
+  background-color: rgba(255, 0, 0, 0.738);
+}
+span{
+  text-align: center;
+  
+}
+h3{
+  text-align: center;
+  /* position: relative;
+  top: 1vh; */
+}
+.clearButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clearButton button{
+  position: relative;
+  top: 15px;
+  padding: 0.5rem;
+  text-align: justify;
+  width: fit-content;
+  
+
+}
